@@ -1,0 +1,18 @@
+@mixin media-md { //700px
+    @media (min-width: 43.75em) {
+      @content;
+    }
+  }
+  
+  @mixin media-lg { // 1000px
+    @media (min-width: 62.5em) {
+      @content;
+    }
+  }
+  
+  @mixin media-xl { //1400px
+    @media (min-width: 87.5em) {
+      @content;
+    }
+  }
+  

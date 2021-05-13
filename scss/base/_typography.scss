@@ -1,0 +1,31 @@
+.header {
+    &__name {
+        font-size: clamp(1.4rem, 0.575 + 2.2917vw, 2.5rem);
+        color: $color-1;
+        line-height: 1.21;
+        padding-bottom: 0.4rem;
+    }
+    &__location {
+        color: $color-primary;
+        font-size: clamp(1rem, 0.8 + 0.8333vw, 1.4rem);
+    }
+}
+
+.stats {
+    line-height: 1.16;
+    
+    p {
+        font-size:1.2rem ;
+        color: $color-1;
+        @include media-md{
+            font-size: 1.8rem;
+        }
+    }
+    .category {
+        color: $color-4;
+        font-size:1.2rem ;
+        @include media-md{
+            font-size: 1.4rem;
+        }
+    }
+}

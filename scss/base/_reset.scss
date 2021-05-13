@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // (10px/16px)*100% = 62.5% -> 1rem = 10px
+}
+body {
+  font-family: $font;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.2rem 4.4rem;
+  margin: 0 auto;
+  @include media-md {
+    padding: 5rem 2rem 6rem;
+  }
+  @include media-lg {
+    padding-top: 6rem;
+    width: 75%;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    padding-bottom: 1.2rem;
+    &__profile-photo{
+        margin: 0 auto;
+        width: 30vw;
+        max-width: 20rem;
+        padding-bottom: 1.1rem;
+        @include media-md{
+        padding-bottom: 1.6rem;
+        }
+    }
+   img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 1.6rem;
+    }
+}
