@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Recipe Blog}</h1>
+<h1 align="center">{Gallery Page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Dev-Caesar/my-gallery-page">
       Solution
     </a>
     <span> | </span>
@@ -38,4 +38,4 @@
 
 
 - GitHub [@dev_caesar](https://{github.com/dev_caesar})
-- Twitter [@your-twitter](https://{twitter.com/dev-caesar})
+- Twitter [@dev-caesar](https://{twitter.com/dev-caesar})
